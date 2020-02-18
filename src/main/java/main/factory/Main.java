@@ -39,7 +39,15 @@ public class Main {
         Car peugeot = new Car("306", 2001, 180, "Red", 40, 7, 6, 15000);
         peugeot.showData();
         System.out.println("________________");
-        Car Lada = new Car("Lada Niva", 1980, 190, "green", 40, 20, 10, 12000);
+        Car Lada = new Car("Lada Niva", 1980, 190, "green", 50, 40, 10, 500);
         Lada.showData();
+        Lada.travel(20);
+        Lada.showData();
+        Lada.travel(400);
+        Lada.showData();
+        Lada.fuelUp(20);
+        Lada.showData();
+        
+        
     }
 }
